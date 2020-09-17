@@ -1,0 +1,31 @@
+# learn how to in gitignor
+
+# node modueles files
+node_modules
+
+# vendor file
+vendor
+# مدل اول ایگنور کردن
+# env file
+.env
+# مدل بعدی همه فایل های پی اچ پی 
+# *.php
+
+# همه فایل های توی یه پوشه
+# js/*
+
+# روش بعدی
+# *.php
+# !index.php
+# 
+# ignor all php files exepte index.php
+
+
+#  اسم یه فولدر یا یه آدزس
+# node_modules/foo/bar
+
+# یکم پیچیده تر:
+# public/*
+# !public/foo_*.js
+# 
+# ignore all files in public except all files lick foo_*.js pattern
